@@ -1,6 +1,6 @@
 const express = require('express');
 const db = require("./config/db");
-const employeeRouter=require("./router/employeeRouter");
+const employeeRouter=require("./router/employeerouter");
 const cors=require('cors');
 
 const app=express();
